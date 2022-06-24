@@ -1,0 +1,174 @@
+.container {
+  background: rgb(210, 236, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 236, 255, 1) 0%,
+    rgba(211, 224, 255, 1) 55%,
+    rgba(174, 240, 254, 1) 100%
+  );
+  border: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  max-width: 800px;
+  font-family: "Raleway", sans-serif;
+}
+
+.submit-button {
+  background-color: rgb(79, 219, 172);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 20px;
+  box-shadow: 0 2px 2px 0 rgba(214, 218, 245, 0.2),
+    0 6px 20px 0 rgba(207, 206, 224, 0.19);
+}
+
+.submit-button:hover {
+  background-color: rgb(94, 230, 146);
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.place {
+  font-size: 13px;
+  padding: 5px 5px;
+  width: 300px;
+  padding: 5px;
+}
+
+.sun-icon-main {
+  color: rgb(233, 204, 30);
+  color: linear-gradient(
+    90deg,
+    rgba(233, 204, 30, 1) 0%,
+    rgba(231, 157, 10, 1) 100%
+  );
+  font-size: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sun-icon-small {
+  color: rgb(250, 217, 71);
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.cloud-sun {
+  color: rgb(233, 204, 30);
+  color: linear-gradient(
+    90deg,
+    rgba(233, 204, 30, 1) 0%,
+    rgba(231, 157, 10, 1) 100%
+  );
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.cloud-icon {
+  color: rgb(232, 245, 252);
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.smog-icon {
+  color: rgb(113, 179, 214);
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.sun-rain {
+  color: rgb(17, 114, 167);
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  background-color: #97cffa;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.day {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.today-date {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  line-height: 10px;
+  padding: 30px;
+}
+
+.today-temp {
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  line-height: 10px;
+  padding: 30px;
+}
+
+.today-place {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  line-height: 10px;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 40px;
+}
+
+h1 {
+  color: rgb(66, 66, 70);
+  text-align: center;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h2 {
+  color: rgb(66, 66, 70);
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h3 {
+  color: rgb(66, 66, 70);
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 48px;
+}
+
+form {
+  padding: 5px;
+  text-align: center;
+}
